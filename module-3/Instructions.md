@@ -87,7 +87,7 @@
 
 1. Using the array you just created select the first and last items using their index numbers
 
-   - let secondItem = productAsAnArray[1];
+   - let firstItem = productAsAnArray[1];
 
 ## Task 12
 
@@ -118,7 +118,7 @@
 ## Task 16
 
 1. Use a for loop and console.log out the 7 times table
-2. Create a function and place the fore loop inside it
+2. Create a function and place the for loop inside it
 3. Call the function
 
 ## Task 17
