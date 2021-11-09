@@ -24,15 +24,13 @@ section.userinterface{
 main{
     width: calc(75% - 40px);
     float: left;
-    padding: 20px;
-    background: red;
+    padding: 20px;;
 }
 
 aside{
     width:calc(25% - 40px);
     float: right;
     padding: 20px;
-    background: blue;
 }
 
 @media only screem and (max-width: 900px){
