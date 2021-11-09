@@ -35,15 +35,26 @@ aside{
     background: blue;
 }
 
-@media only screem and (max-width: 900px)
-        main,
-        aside{
-            float:none;
-            width:calc(100% - 40px)
-        }
+@media only screem and (max-width: 900px){
+    main,
+    aside{
+        float:none;
+        width:calc(100% - 40px)
+    }
 
+}
 
+.imageContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+.imageContainer div{
+    max-width: calc(25% - 20px);
+    padding: 10px;
+}
 
-
+.imageContainer div img{
+    max-width: 100%;
 }
