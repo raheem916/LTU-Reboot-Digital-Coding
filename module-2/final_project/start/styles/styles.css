@@ -1,3 +1,49 @@
-body{
-    background: yellow;
+header .logo{
+    max-width: 200px;
+    display: block;
+    margin:0 auto;
+}
+
+section.userinterface{
+    padding: 30px;
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+}
+
+main{
+    width: calc(75% - 40px);
+    float: left;
+    padding: 20px;
+    background: red;
+}
+
+aside{
+    width:calc(25% - 40px);
+    float: right;
+    padding: 20px;
+    background: blue;
+}
+
+@media only screem and (max-width: 900px)
+        main,
+        aside{
+            float:none;
+            width:calc(100% - 40px)
+        }
+
+
+
+
+
 }
